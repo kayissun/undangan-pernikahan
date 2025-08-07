@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>The Wedding</title>
+  </head>
+  <body>
+    <!-- hero -->
+    <section id="hero" class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
+      <main>
+        <h4>Kepada Bapak/Ibu/Saudara/i,</h4>
+        <h1>Kayis & Waguri</h1>
+        <p>Akan melangsungkan resepsi pernikahan dalam:</p>
+        <a href="#undangan" class="btn btn-lg mt-5">Lihat Undangan</a>
+      </main>
+    </section>
+    <!-- akhir hero -->
+
+    <!-- countdown -->
+    <div id="countdown" class="countdown-row">
+      <div class="time-box">
+        <div id="days">0</div>
+        <div class="label">Hari</div>
+      </div>
+      <div class="time-box">
+        <div id="hours">0</div>
+        <div class="label">Jam</div>
+      </div>
+      <div class="time-box">
+        <div id="minutes">0</div>
+        <div class="label">Menit</div>
+      </div>
+      <div class="time-box">
+        <div id="seconds">0</div>
+        <div class="label">Detik</div>
+      </div>
+    </div>
+    <!-- akhir countdown -->
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md bg-transparent sticky-top mynavbar mb-4">
+      <div class="container">
+        <a class="navbar-brand" href="#">Wedding</a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Kayis & Waguri</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#info">Info</a>
+              <a class="nav-link" href="#story">Story</a>
+              <a class="nav-link" href="#gallery">Gallery</a>
+              <a class="nav-link" href="#rsvp">RSVP</a>
+              <a class="nav-link" href="#gifts">Gifts</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
+    <!-- home -->
+    <section id="home" class="home">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 text-center">
+            <h2>Acara Pernikahan</h2>
+            <h3>diselenggarakan pada 14 Novemeber 2020 di Kebumen, Jawa Tengah.</h3>
+            <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu/Saudara/i, untuk hadir pada acara pernikahan kami</p>
+          </div>
+        </div>
+
+        <div class="row couple">
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-8 text-end">
+                <h3>Kayis</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi vero expedita tempora repellat vitae?</p>
+                <p>Putra dari Bapak ipsum<br />dan <br />Ibu lorem</p>
+              </div>
+              <div class="col-4">
+                <img src="img/kayis.png" alt="Kayis" class="img-responsive rounded-circle" />
+              </div>
+            </div>
+          </div>
+
+          <span class="heart"><i class="bi bi-heart-fill"></i></span>
+
+          <div class="col-lg-6">
+            <div class="row">
+              <div class="col-4">
+                <img src="img/waguri.jpg" alt="Waguri" class="img-responsive rounded-circle" />
+              </div>
+              <div class="col-8">
+                <h3>Waguri</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto sequi vero expedita tempora repellat vitae?</p>
+                <p>Putri dari Bapak lorem<br />dan <br />Ibu ipsum</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir home -->
+
+    <!-- info -->
+    <section id="info" class="info">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-10 text-center">
+            <h2>Informasi Acara</h2>
+            <p class="alamat">Alamat: gedung sate. <br />Jl. Mrentul Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, atque.</p>
+            <a href="#" target="_blank" class="btn btn-light btn-sm my-4">Lokasi</a>
+            <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun ada tanda-tanda sedang dialngsungkan acara pernikahan, boleh jadi anda salah jadwal, atau salah tempat.</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mt-4">
+          <div class="col-md-5 col-10">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Akad Nikah</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-alarm d-block"></i>
+                    <span>08.00 - 10.00</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calend d-block"></i>
+                    <span>Minggu, 20 November 2020</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">Saat acara akad nikah diharapkan untuk kondusif menjaga kehidmatan dan kekhusyuan seluruh prosesi.</div>
+            </div>
+          </div>
+
+          <div class="col-md-5 col-10 mb-5">
+            <div class="card text-center text-bg-light">
+              <div class="card-header">Resepsi</div>
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+                    <i class="bi bi-alarm d-block"></i>
+                    <span>11.00 - selesai</span>
+                  </div>
+                  <div class="col-md-6">
+                    <i class="bi bi-calend d-block"></i>
+                    <span>Minggu, 20 November 2020</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-footer">Saat acara akad nikah diharapkan untuk kondusif menjaga kehidmatan dan kekhusyuan seluruh prosesi.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir info -->
+
+    <script src="script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
