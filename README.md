@@ -34,7 +34,7 @@ Ingin bantu pengembangan? Kirim pull request!
 
 ## 🌐 Demo
 
-🔗 [Lihat versi demo](https://kayissun.github.io/Pembelajaran/)
+🔗 [Lihat versi demo](https://kayissun.github.io/undangan-pernikahan/)
 
 ---
 
