@@ -1,5 +1,6 @@
 # 💍 Website Undangan Pernikahan Digital
 
+<img src="ss.png">
 Selamat datang di repository ini!  
 Website ini dibuat untuk menyampaikan undangan pernikahan secara digital yang modern, elegan, dan ramah lingkungan.
 
